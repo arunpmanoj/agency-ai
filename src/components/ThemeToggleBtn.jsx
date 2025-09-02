@@ -30,9 +30,9 @@ const ThemeToggleBtn = ({ theme, setTheme }) => {
       className="p-1.5 border border-gray-500 rounded-full"
     >
       {theme === 'dark' ? (
-        <img src={assets.sun_icon} className="size-7.5" alt="Switch to light mode" />
+        <img src={assets.sun_icon} className="size-5.5" alt="Switch to light mode" />
       ) : (
-        <img src={assets.moon_icon} className="size-7.5" alt="Switch to dark mode" />
+        <img src={assets.moon_icon} className="size-5.5" alt="Switch to dark mode" />
       )}
     </button>
   )
