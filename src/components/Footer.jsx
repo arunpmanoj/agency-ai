@@ -16,7 +16,15 @@ const Footer = ({theme}) => {
             <li><a className='hover:text-primary' href="#contact-us">Contact Us</a></li>
           </ul>
         </div>
-        <div></div>
+       <div className='text-gray-600 dark:text-gray-400'>
+            <h3 className='font-semibold'>Subscribe to our newsletter</h3>
+            <p className=' text-sm mt-2 mb-6'>The latest news,
+            articles, and resources, sent to your inbox weekly.</p>
+            <div className='flex gap-2 text-sm' >
+                <input type="email" placeholder='Enter your email' className='w-full p-3 text-sm outline-none rounded dark:text-gray-200 bg-transparent border border-gray-300 dark:border-gray-500'/>
+                <button className='bg-primary text-white rounded px-6'>Subscribe</button>
+            </div>
+        </div>
       </div>
     </div>
   )
