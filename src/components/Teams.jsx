@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from './components/Title'
-import { teamData } from './assets/assets'
+import Title from './Title'
+import { teamData } from '../assets/assets'
 
 const Teams = () => {
   return (

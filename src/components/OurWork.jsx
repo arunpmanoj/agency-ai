@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from './components/Title'
-import assets from './assets/assets';
+import Title from './Title'
+import assets from '../assets/assets';
 const OurWork = () => {
     const workData = [
     {

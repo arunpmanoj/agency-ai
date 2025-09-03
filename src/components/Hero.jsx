@@ -19,7 +19,7 @@ const Hero = () => {
       <div className='relative'>
         <img src={assets.hero_img} alt="" className='w-full max-w-6xl' />
         <img src={assets.bgImage1} alt="" className="absolute -top-40 -right-40
-         sm:-top-[100px] sm:-right-[70px] z-[-1] dark:hidden" />
+         sm:-top-[100px] sm:-right-[70px] z-[-1] dark:hidden"/>
       </div>
     </div>
   )
