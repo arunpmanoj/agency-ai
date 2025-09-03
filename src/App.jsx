@@ -54,12 +54,17 @@ const App = () => {
       <Teams/>
       <ContactUs/>
       <Footer theme={theme}/>
-      <div ref={outlineRef} className='fixed top-0 left-0 h-10 w-10 rounded-full border border-primary pointer-events-none z-[9999]'
-      style={{transition:'transform 0.1s ease-out' }}></div>
-      </div>
-      {/* Custom Cursor Dot */}
-      <div ref={dotRef} className='fixed top-0 left-0 h-3 w-3 rounded-full bg-primary pointer-events-none z-[9999]'>
-      </div>
+   {/* Custom Cursor Outline */}
+    <div
+      ref={outlineRef}
+      className='fixed top-0 left-0 h-10 w-10 rounded-full border border-primary pointer-events-none z-[9999]'
+      style={{transition:'transform 0.1s ease-out' }}
+    ></div>
+    {/* Custom Cursor Dot */}
+    <div
+      ref={dotRef}
+      className='fixed top-0 left-0 h-3 w-3 rounded-full bg-primary pointer-events-none z-[9999]'
+    ></div>
     </div>
   );
 };
