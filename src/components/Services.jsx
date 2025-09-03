@@ -12,7 +12,7 @@ const Services = () => {
         {
         title: 'Content marketing',
         description: 'We help you execute your plan and deliver results.', 
-        icon: assets.marketing_icon_icon,
+        icon: assets.marketing_icon,
         },
         {
         title:'Content Writing',
@@ -29,10 +29,10 @@ const Services = () => {
     <div id='services' className='relative flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white'>
     <img src={assets.bgImage2} alt="" className='absolute -top-[110px] -left-[70px] z-[-1] dark:hidden'/>
     <Title title='How can we help?' desc='From strategy to execution, we craft digital solutions that move your business forward.'/>
-    <div className='flex flex-col md-grid grid-cols-2'>
-        {servicesData.map((service,index)=>{
+    <div className='flex flex-col md:grid grid-cols-2'>
+        {servicesData.map((service,index)=>(
             <ServiceCard key={index} service={service} index={index}/>
-        })}
+        ))}
     </div>
     </div>
   )
