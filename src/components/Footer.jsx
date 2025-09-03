@@ -26,7 +26,7 @@ const Footer = ({ theme }) => {
             alt=""
           />
           <p className="max-w-md">
-            From strategy to execution, we craft digital solutions that move
+            From stratergy to execution, we craft digital solutions that move
             your business forward.
           </p>
           <ul className="flex gap-8">
