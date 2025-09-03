@@ -22,7 +22,7 @@ const Footer = ({theme}) => {
             articles, and resources, sent to your inbox weekly.</p>
             <div className='flex gap-2 text-sm' >
                 <input type="email" placeholder='Enter your email' className='w-full p-3 text-sm outline-none rounded dark:text-gray-200 bg-transparent border border-gray-300 dark:border-gray-500'/>
-                <button className='bg-primary text-white rounded px-6'>Subscribe</button>
+                <button className='bg-primary text-white rounded px-6 cursor-pointer'>Subscribe</button>
             </div>
         </div>
       </div>
