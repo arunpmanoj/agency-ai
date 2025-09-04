@@ -4,6 +4,10 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+body {
+  overscroll-behavior: none;
+}
+
 * {
   font-family: "Manrope", sans-serif;
   font-weight: 500;
